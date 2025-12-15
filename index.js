@@ -3,6 +3,8 @@ const config = require("./config.json");
 const client = new rpc.Client({ transport: 'ipc' });
 const axios = require("axios");
 
+const startTime = Date.now();
+
 const servers = [
     "https://api.mcsrvstat.us/bedrock/2/play.paladium-bedrock.fr:19132",
     "https://api.mcsrvstat.us/bedrock/2/faction.paladium-bedrock.fr:19133",
@@ -42,7 +44,7 @@ async function updatePresence() {
                 small_text: config.smalltext 
             },
             timestamps: {
-                start: Date.now() - (2 * 60 * 60 * 1000)
+                start: startTime
             },
             party: {
                 id: "paladium-network",

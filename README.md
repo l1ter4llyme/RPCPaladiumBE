@@ -1,4 +1,4 @@
-# RPCPaladiumBE
+# RPCPaladium2
 
 Un script Discord Rich Presence (RPC) pour Paladium Bedrock, créé par **Joe (l1ter4llyme)**.
 
@@ -27,6 +27,7 @@ Avant de lancer le script, vous devez configurer le fichier `config.json`.
 2. Créez une nouvelle application.
 3. Copiez l'**Application ID** (Client ID).
 4. Dans l'onglet **Rich Presence** > **Art Assets**, téléversez vos images (pour `largeimage` et `smallimage`).
+   > ℹ️ **Note :** Les images à utiliser sont disponibles dans le dossier `image/` de ce projet (`paladium.png` et `bedrock.png`).
 
 Ouvrez le fichier `config.json` et modifiez les valeurs suivantes :
 

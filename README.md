@@ -1,4 +1,4 @@
-# RPCPaladium2
+# RPCPaladiumBE
 
 Un script Discord Rich Presence (RPC) pour Paladium Bedrock, créé par **Joe (l1ter4llyme)**.
 
